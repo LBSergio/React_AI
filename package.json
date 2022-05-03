@@ -1,0 +1,48 @@
+{
+  "name": "react_avanzado_proyecto",
+  "version": "1.0.0",
+  "description": "Programa avanzado ",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "standard",
+    "dev": "webpack server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBSergio/React_AI.git"
+  },
+  "author": "Sergio López Bautista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LBSergio/React_AI/issues"
+  },
+  "homepage": "https://github.com/LBSergio/React_AI#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "standard": "^17.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "standard": {
+    "ignore": [
+      "/api/**"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
