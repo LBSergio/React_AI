@@ -1,15 +1,16 @@
 import React from 'react';
 import { Anchor, Image} from './styles';
 
-const DEFAULT_IMAGE = 'https://i.imgur.com/dJa0Hpl.jpg';
+const DEFAULT_IMAGE = 'https://samherbert.net/svg-loaders/svg-loaders/oval.svg';
 
 export const Category = ({
-    cover = DEFAULT_IMAGE,
+    cover,
     path, 
-    emoji = '?'
+    emoji = ' ',
+    loading
 }) => (
-    <Anchor href={path}>
-        <Image src={cover}/>
+    <Anchor href={path} target='_blank'>
+        <Image src={loading==="false" ? cover : DEFAULT_IMAGE} loading={loading}/>
         {emoji}
     </Anchor>
 )

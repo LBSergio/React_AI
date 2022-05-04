@@ -15,6 +15,11 @@ module.exports = {
         extensions: ['.js', '.jsx'],
         alias: {
           "@Category": path.resolve(__dirname, 'src/components/Category/'),
+          "@ListOfCategories": path.resolve(__dirname, 'src/components/ListOfCategories/'),
+          "@PhotoCard": path.resolve(__dirname, 'src/components/PhotoCard/'),
+          "@ListOfPhotoCard": path.resolve(__dirname, 'src/components/ListOfPhotoCard/'),
+          "@Logo": path.resolve(__dirname, 'src/components/Logo/'),
+          "@GlobalStyles": path.resolve(__dirname, 'src/styles/'),
         },
     },
     module: {
