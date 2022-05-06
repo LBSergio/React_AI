@@ -18,6 +18,7 @@ module.exports = {
           "@ListOfCategories": path.resolve(__dirname, 'src/components/ListOfCategories/'),
           "@PhotoCard": path.resolve(__dirname, 'src/components/PhotoCard/'),
           "@ListOfPhotoCard": path.resolve(__dirname, 'src/components/ListOfPhotoCard/'),
+          "@hooks": path.resolve(__dirname, 'src/hooks/'),
           "@Logo": path.resolve(__dirname, 'src/components/Logo/'),
           "@GlobalStyles": path.resolve(__dirname, 'src/styles/'),
         },

@@ -29,4 +29,9 @@ export const Button = styled.button `
     & svg {
         margin-right: 4px;
     }
+    cursor: pointer;
+`
+
+export const Article = styled.article`
+    min-height: 200px;    
 `
