@@ -16,12 +16,11 @@ export const PhotoCard = ({
     const [liked, setLiked] = useLocalStorage(key, false);    
     const [show, element] = useNearScreen();
     const Icon = liked ? MdFavorite : MdFavoriteBorder;
-
     return (
     <Article ref={element}>
         {
             show && <>
-                        <a href={`/detail/${id}`}>
+                        <a href={`/?detail=${id}`}>
                             <ImgWrapper>
                                 <Img src={src}/>
                             </ImgWrapper>
